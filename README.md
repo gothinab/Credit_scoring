@@ -29,7 +29,7 @@
 
 ## 🗂️ Структура проекта
 Credit_scoring/
-├── EDA.ipynb # Разведочный анализ + модель
+├── main.ipynb # Разведочный анализ + модель
 ├── requirements.txt # Зависимости
 ├── .gitignore
 └── README.md
@@ -42,4 +42,4 @@ cd Credit_scoring
 python -m venv venv
 source venv/bin/activate     # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-jupyter notebook EDA.ipynb
+jupyter notebook main.ipynb
